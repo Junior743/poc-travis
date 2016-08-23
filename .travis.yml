@@ -1,12 +1,5 @@
 sudo: false
 language: python
-services:
-  - memcached
-  - mysql
-  - riak
-  - postgresql
-  - redis-server
-  - cassandra
 python:
   - "3.4"
 branches:
