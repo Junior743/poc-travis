@@ -7,6 +7,6 @@ branches:
   - master
 install:
   - pip install -r requirements.txt
-script:
-  - make travis-lint-$TEST_SUITE
-  - make travis-test-$TEST_SUITE
+script: nosetests
+notifications:
+  email: true
